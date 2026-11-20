@@ -26,6 +26,7 @@ body{
   font-size: clamp(1rem, 1rem, 1rem);
   color: azure;
   -webkit-text-stroke: 2px black;
+  position: right;
 }
 .banner-half1-prop1{
   height: 100px;
@@ -36,10 +37,12 @@ body{
 
 /* Top (more prof half) */
 .web-half1-theme{
-
+  background-color: skyblue; 
 }
 .web-half1-portfoliopic{
-
+  height: 45px;
+  width: auto;
+  -webkit-text-stroke: 4px whitesmoke;
 }
 
 
