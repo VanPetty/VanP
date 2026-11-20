@@ -12,8 +12,11 @@ body{
 .banner-half1-theme{
   position: relative;
   display: flex;
+  justify-content: center;
   gap: 1.5rem;
   background-color: skyblue;
+  background-size: cover;
+  padding: 2rem 1rem;
   min-height: 500px;
   background-size: cover;
   
@@ -21,6 +24,8 @@ body{
 .banner-half1-tag{
   display: inline-block;
   padding: 0.35rem 1.25rem;
+  background-color: skyblue;
+  font-size: 1rem;
 }
 .banner-half1-text01{
   font-size: clamp(1rem, 1rem, 1rem);
@@ -29,7 +34,7 @@ body{
   position: right;
 }
 .banner-half1-prop1{
-  height: 100px;
+  height: 50px;
   width: auto;
   margin-bottom: 1.5rem;
   position: left;
