@@ -9,7 +9,7 @@ body{
 }
 
 /* Banner for the top part */
-.banner-half1-theme{
+.banner1-theme{
   position: relative;
   display: flex;
   justify-content: center;
@@ -21,23 +21,23 @@ body{
   background-size: cover;
   
 }
-.banner-half1-tag{
+.banner1-tag{
   display: inline-block;
   padding: 0.35rem 1.25rem;
   background-color: skyblue;
   font-size: 1rem;
 }
-.banner-half1-text01{
+.banner1-text1{
   font-size: clamp(1rem, 1rem, 1rem);
   color: azure;
   -webkit-text-stroke: 2px black;
-  position: right;
+  position: static;
 }
-.banner-half1-prop1{
+.banner1-prop1{
   height: 50px;
   width: auto;
   margin-bottom: 1.5rem;
-  position: left;
+  position: absolute;
 }
 
 /* Top (more prof half) */
