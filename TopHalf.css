@@ -34,17 +34,17 @@ body{
   position: static;
 }
 .banner1-prop1{
-  height: 50px;
-  width: 50px;
+  height: 25px;
+  width: 25px;
   margin-bottom: 1.5rem;
   position: absolute;
 }
 
 /* Top (more prof half) */
-.web-half1-theme{
+.web1-theme{
   background-color: skyblue; 
 }
-.web-half1-portfoliopic{
+.web1-portfoliopic{
   height: 45px;
   width: auto;
   -webkit-text-stroke: 4px whitesmoke;
