@@ -11,11 +11,12 @@ body{
 /* Banner for the top part */
 .banner1-theme{
   position: relative;
-  display: flex;
-  justify-content: center;
+  display: flex-start;
+  justify-content: flex-start; 
   gap: 1.5rem;
-  background-color: skyblue;
+  background-image: url("Random\ Land2.bmp");
   background-size: cover;
+  background-position: center;
   padding: 2rem 1rem;
   min-height: 500px;
   background-size: cover;
@@ -28,15 +29,15 @@ body{
   font-size: 1rem;
 }
 .banner1-text1{
-  font-size: clamp(1rem, 1rem, 1rem);
   color: azure;
-  -webkit-text-stroke: 2px black;
-  position: static;
+  text-shadow: 2px 2px black;
+  letter-spacing: 0.1rem;
 }
 .banner1-prop1{
-  height: 25px;
-  width: 25px;
-  margin-bottom: 1.5rem;
+  height: auto;
+  width: 450px;
+  top: 1rem;
+  left: 1rem;
   position: absolute;
 }
 
