@@ -11,8 +11,8 @@ body{
 /* Banner for the top part */
 .banner1-theme{
   position: relative;
-  display: flex-start;
-  justify-content: flex-start; 
+  display: flex;
+  justify-content: center; 
   gap: 1.5rem;
   background-image: url("Random\ Land2.bmp");
   background-size: cover;
