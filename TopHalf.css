@@ -12,15 +12,14 @@ body{
 .banner1-theme{
   position: relative;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
+  align-items: center; 
   gap: 1.5rem;
   background-image: url("Random\ Land2.bmp");
   background-size: cover;
   background-position: center;
   padding: 2rem 1rem;
   min-height: 500px;
-  background-size: cover;
-  
 }
 .banner1-tag{
   display: inline-block;
