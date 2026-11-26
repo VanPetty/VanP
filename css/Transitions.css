@@ -8,11 +8,11 @@
 }
 
 /*Transition Waves*/
-.wave-eedge{
+.wave-edge{
     position: absolute;
     bottom: -1px;
     left: 0;
-    width: 100px;
+    width: 100%;
     height: 80px;
 }
 .wave-fill{
