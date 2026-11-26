@@ -41,9 +41,10 @@ body{
   position: absolute;
 }
 .banner1-headprofile{
-  height: 450;
+  height: 350;
   width: auto;
   top: 2rem;
+  bottom: 0.5rem;
   position: center;
 
 }
