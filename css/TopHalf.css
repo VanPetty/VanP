@@ -18,7 +18,7 @@ body{
   background-image: url("../images/Random Land2.bmp");
   background-size: cover;
   background-position: center;
-  padding: 2rem 1rem 8rem;
+  padding: 2rem 1rem 8.5rem;
   min-height: 500px;
 }
 .banner1-tag{
@@ -45,7 +45,7 @@ body{
   align-items: center;
 }
 .banner1-headprofile{
-  height: 350px;
+  height: 250px;
   width: auto;
   top: 2rem;
   position: center;
