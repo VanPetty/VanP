@@ -28,11 +28,7 @@ body{
   margin: 0;
   font-size: 1rem;
 }
-.banner1-text1{
-  color: azure;
-  text-shadow: 2px 2px black;
-  letter-spacing: 0.1rem;
-}
+
 .banner1-prop1{
   height: auto;
   width: 450px;
@@ -40,12 +36,24 @@ body{
   left: 1rem;
   position: absolute;
 }
+
+/* Profile pic in banner*/
+.headshot-infor-banner{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
 .banner1-headprofile{
   height: 350;
   width: auto;
   top: 2rem;
   position: center;
-
+}
+.banner1-text1{
+  color: azure;
+  text-shadow: 2px 2px black;
+  letter-spacing: 0.1rem;
 }
 
 /* Top (more prof half) */
