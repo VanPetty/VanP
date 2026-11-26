@@ -9,6 +9,6 @@ document.querySelectorAll("[data-wave]").forEach((el) => {
         span.textContent = char === " "?"\u00A0": char;
         span.style.animationDelay = '${i*0.1}s';
         span.setAttribute("aria-hidden", "true");
-        el.appendChild(span)
+        el.appendChild(span);
     });
 });
