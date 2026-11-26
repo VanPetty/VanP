@@ -46,7 +46,7 @@ document.querySelectorAll("[data-wave-edge]").forEach((el) => {
         }
         line.setAttribute("d", d);
         fill.setAttribute("d", d + "L1500, 150, L0, 150 z");
-        if (!still) requestAnimationFrame(draw);
+        if (!still) requestAnimationFrame(draw); 
     }
     requestAnimationFrame(draw);
 });
