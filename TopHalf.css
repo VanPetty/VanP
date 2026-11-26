@@ -40,6 +40,13 @@ body{
   left: 1rem;
   position: absolute;
 }
+.banner1-headprofile{
+  height: 450;
+  width: auto;
+  top: 2rem;
+  position: center;
+
+}
 
 /* Top (more prof half) */
 .web1-theme{
