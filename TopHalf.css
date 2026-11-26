@@ -35,7 +35,7 @@ body{
 }
 .banner1-prop1{
   height: auto;
-  width: 750px;
+  width: 450px;
   top: 1rem;
   left: 1rem;
   position: absolute;
@@ -44,7 +44,6 @@ body{
   height: 350;
   width: auto;
   top: 2rem;
-  bottom: 0.5rem;
   position: center;
 
 }
