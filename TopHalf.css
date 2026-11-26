@@ -54,6 +54,7 @@ body{
   color: azure;
   text-shadow: 2px 2px black;
   letter-spacing: 0.1rem;
+  margin: 0 auto;
 }
 
 /* Top (more prof half) */
