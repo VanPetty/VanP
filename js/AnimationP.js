@@ -15,7 +15,7 @@ document.querySelectorAll("[data-wave]").forEach((el) => {
 });
 
 //Wave animation for tansitions
-document.querySelectorAll("[data-wave]").forEach((el) => {
+document.querySelectorAll("[data-wave-edge]").forEach((el) => {
     const NS = "http://www.w3.org/2000/svg";
 
     const svg = document.createElementNS(NS, "svg");
@@ -33,9 +33,9 @@ document.querySelectorAll("[data-wave]").forEach((el) => {
     el.appendChild(svg);
 
     // Attributes for sin or cos wave
-    const amplitude = 25;
+    const amplitude = 5;
     const waves = 2.5;
-    const speed = 0.025;
+    const speed = 0.005;
     const still = window.matchMedia("(perfers-reduced-motion: reduce)").matches;
 
     function draw(time){
@@ -45,7 +45,7 @@ document.querySelectorAll("[data-wave]").forEach((el) => {
             d += (x === 0 ? "M" : "L") + x + "," +y.toFixed(1)+" ";
         }
         line.setAttribute("d", d);
-        fill.setAttribute("d", d + "l1500, 150, L0, 150 z");
+        fill.setAttribute("d", d + "L1500, 150, L0, 150 z");
         if (!still) requestAnimationFrame(draw);
     }
     requestAnimationFrame(draw);
