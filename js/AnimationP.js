@@ -20,7 +20,7 @@ document.querySelectorAll("[data-wave-edge]").forEach((el) => {
 
     const svg = document.createElementNS(NS, "svg");
     svg.setAttribute("class", "wave-edge");
-    svg.setAttribute("viewBox", "0 0 1500 150")
+    svg.setAttribute("viewBox", "0 0 1500 120")
     svg.setAttribute("preserveAspectRatio", "none");
     svg.setAttribute("aria-hidden", "true");
 
@@ -33,7 +33,7 @@ document.querySelectorAll("[data-wave-edge]").forEach((el) => {
     el.appendChild(svg);
 
     // Attributes for sin or cos wave
-    const amplitude = 5;
+    const amplitude = 25;
     const waves = 2.5;
     const speed = 0.005;
     const still = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -45,7 +45,7 @@ document.querySelectorAll("[data-wave-edge]").forEach((el) => {
             d += (x === 0 ? "M" : "L") + x + "," +y.toFixed(1)+" ";
         }
         line.setAttribute("d", d);
-        fill.setAttribute("d", d + "L1500,150 L0,150 Z");
+        fill.setAttribute("d", d + "L1500,150 L0,120 Z");
         if (!still) requestAnimationFrame(draw); 
     }
     requestAnimationFrame(draw);
