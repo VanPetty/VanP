@@ -33,9 +33,9 @@ document.querySelectorAll("[data-wave-edge]").forEach((el) => {
     el.appendChild(svg);
 
     // Attributes for sin or cos wave
-    const amplitude = 5;
+    const amplitude = 6;
     const waves = 2.5;
-    const speed = 0.0005;
+    const speed = 0.0025;
     const still = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
     function draw(time){
