@@ -36,7 +36,7 @@ document.querySelectorAll("[data-wave-edge]").forEach((el) => {
     const amplitude = 5;
     const waves = 2.5;
     const speed = 0.005;
-    const still = window.matchMedia("(perfers: reduce)").matches;
+    const still = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
     function draw(time){
         let d = ""
@@ -45,7 +45,7 @@ document.querySelectorAll("[data-wave-edge]").forEach((el) => {
             d += (x === 0 ? "M" : "L") + x + "," +y.toFixed(1)+" ";
         }
         line.setAttribute("d", d);
-        fill.setAttribute("d", d + "L1500, 150, L0, 150 z");
+        fill.setAttribute("d", d + "L1500,150 L0,150 Z");
         if (!still) requestAnimationFrame(draw); 
     }
     requestAnimationFrame(draw);
