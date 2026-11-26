@@ -36,7 +36,7 @@ document.querySelectorAll("[data-wave-edge]").forEach((el) => {
     const amplitude = 5;
     const waves = 2.5;
     const speed = 0.005;
-    const still = window.matchMedia("(perfers-reduced-motion: reduce)").matches;
+    const still = window.matchMedia("(perfers: reduce)").matches;
 
     function draw(time){
         let d = ""
