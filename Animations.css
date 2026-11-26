@@ -1,0 +1,4 @@
+.banner1-text1 span{
+    display: inline-block;
+    animation: wave 1.5s ease-in-out infinite;
+}
