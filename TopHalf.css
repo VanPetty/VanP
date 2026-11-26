@@ -13,7 +13,7 @@ body{
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: flex-end; 
   gap: 1.5rem;
   background-image: url("Random\ Land2.bmp");
   background-size: cover;
@@ -25,6 +25,7 @@ body{
   display: inline-block;
   padding: 0.35rem 1.25rem;
   background-color: skyblue;
+  margin: 0;
   font-size: 1rem;
 }
 .banner1-text1{
