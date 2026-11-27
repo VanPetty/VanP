@@ -28,7 +28,6 @@ body{
   margin: 0;
   font-size: 1rem;
 }
-
 .banner1-prop1{
   height: auto;
   width: 450px;
@@ -58,13 +57,27 @@ body{
 }
 
 /* Top (more prof half) */
-.web1-theme{
+/* Bio Information */
+.bio-section{
   background-color: skyblue; 
-}
-.web1-portfoliopic{
-  height: 45px;
-  width: auto;
-  -webkit-text-stroke: 4px whitesmoke;
+  display: grid;
+  justify-content: start;
+  column-gap: var(--column-gap);
+  align-items: var(--vertical-align);
+  min-height: 50vh;
 }
 
-
+/*information for a header to describe text, should be reused */
+.header01{
+  text-align: left;
+  color: rgba(241, 255, 252, 1);
+  text-shadow:2.5px 2.5px black;
+  letter-spacinig: 0.2rem
+  margin: 0 auto;
+}
+/*paragraph information, should be reused */
+.para01{
+  font-size: 1.25rem;
+  line-height: 1rem;
+  text-align: left;
+}
