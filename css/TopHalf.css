@@ -87,5 +87,7 @@ body{
 .para01{
   font-size: 1.25rem;
   line-height: 1rem;
+  color: rgba(241, 255, 252, 1);
+  text-shadow: 1.5px, 1.5px black;
   text-align: left;
 }

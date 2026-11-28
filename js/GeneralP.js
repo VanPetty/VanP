@@ -6,6 +6,7 @@ document.querySelectorAll("[data-carousel]").forEach(carousel => {
     let current = 0;
 
     function show(){
+        const img = slide.querySelector("img");
         img.src = photos[current];
     }
     //Foward click (right)
