@@ -7,6 +7,10 @@ body{
   padding: 0;
   background-color: skyblue; 
 }
+:root{
+  --column-gap: 2rem;
+  --vertical-align: center;
+}
 
 /* Banner for the top part */
 .banner1-theme{
@@ -57,22 +61,26 @@ body{
 }
 
 /* Top (more prof half) */
-/* Bio Information */
+/* Bio Information, reuse if needed */
 .bio-section{
   background-color: skyblue; 
   display: grid;
-  justify-content: start;
+  grid-template-columns: 1fr 1fr;
   column-gap: var(--column-gap);
   align-items: var(--vertical-align);
   min-height: 50vh;
+  padding: 2rem;
 }
-
+/*Text classes, can be used in  any section*/
+.hero-text01{
+  flex:1;
+}
 /*information for a header to describe text, should be reused */
 .header01{
   text-align: left;
   color: rgba(241, 255, 252, 1);
   text-shadow:2.5px 2.5px black;
-  letter-spacinig: 0.2rem
+  letter-spacing: 0.2rem;
   margin: 0 auto;
 }
 /*paragraph information, should be reused */
